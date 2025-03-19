@@ -9,7 +9,7 @@ export function meta({}: Route.MetaArgs) {
   return [{ title: "markdown viewer" }];
 }
 
-export const loader = async () => {
+export const loader = () => {
   const randomString = `株式会社 ${Math.random().toString(36).substring(2, 8)}`;
 
   const masked = md
