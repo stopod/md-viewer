@@ -1,0 +1,137 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f4f4f4;
+  text-align: left;
+}
+.markdown {
+  line-height: 1.6; /* 行間を広げる */
+  font-size: 16px; /* フォントサイズを調整 */
+}
+
+.markdown h1 {
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.markdown h2 {
+  font-size: 1.75em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.markdown h3 {
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.markdown h4 {
+  font-size: 1.25em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.markdown h5 {
+  font-size: 1em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.markdown h6 {
+  font-size: 0.875em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.markdown p {
+  margin-bottom: 0.8em; /* 間隔を少し狭める */
+  line-height: 1.5; /* 行間を調整 */
+}
+
+.markdown ul,
+.markdown ol {
+  margin-bottom: 1em;
+  padding-left: 1.5em;
+}
+
+.markdown li {
+  margin-bottom: 0.5em;
+}
+
+.markdown ul {
+  list-style-type: disc; /* 箇条書きリストのスタイルを標準に設定 */
+  margin-left: 1.5em; /* 左余白を調整 */
+  padding-left: 0; /* パディングをリセット */
+}
+
+.markdown ol {
+  list-style-type: decimal; /* 番号付きリストのスタイルを標準に設定 */
+  margin-left: 1.5em; /* 左余白を調整 */
+  padding-left: 0; /* パディングをリセット */
+}
+
+.markdown li {
+  margin-bottom: 0.5em; /* リスト項目の間隔を調整 */
+}
+
+.markdown table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.markdown th,
+.markdown td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.markdown th {
+  background-color: #f4f4f4;
+  text-align: left;
+}
+
+.markdown a {
+  color: #007bff; /* リンクの色を青に設定 */
+  text-decoration: underline; /* 下線を追加 */
+  cursor: pointer; /* カーソルをポインタに変更 */
+}
+
+.markdown a:hover {
+  color: #0056b3; /* ホバー時に色を濃くする */
+  text-decoration: none; /* ホバー時に下線を消す */
+}
+
+.markdown code {
+  background-color: #f8f9fa; /* 背景色を薄いグレーに設定 */
+  color: #d63384; /* テキスト色を目立つ色に設定 */
+  font-family: "Courier New", Courier, monospace; /* 等幅フォントを使用 */
+  padding: 0.2em 0.4em; /* パディングを追加 */
+  border-radius: 4px; /* 角を丸くする */
+}
+
+.markdown blockquote {
+  border-left: 4px solid #ccc; /* 左側にボーダーを追加 */
+  background-color: #f9f9f9; /* 背景色を薄いグレーに設定 */
+  margin: 1em 0; /* 上下の余白を設定 */
+  padding: 0.5em 1em; /* 内側の余白を設定 */
+  color: #555; /* テキスト色を少し薄く設定 */
+  font-style: italic; /* 斜体に設定 */
+}
+
+.markdown hr {
+  border: none; /* デフォルトのボーダーを削除 */
+  border-top: 1px solid #ccc; /* 上側に薄い線を追加 */
+  margin: 1em 0; /* 上下の余白を少し狭める */
+}
