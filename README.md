@@ -1,4 +1,4 @@
-# md-viewer
+# md-viewer  
 
 ## はじめに
 
@@ -25,3 +25,7 @@ const masked = md
 
 React Router を使用して作りました  
 デプロイは vercel を想定しています
+
+## その他  
+ここで説明しています  
+https://qiita.com/stopod/items/0604f8add953e3f6aec2
